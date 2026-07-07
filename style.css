@@ -1772,6 +1772,38 @@ footer p {
     font-size: 15px;
     opacity: 1 !important;
 }
+  /* ===== MENU MOBILE QUI S'OUVRE ===== */
+@media (max-width: 768px) {
+    /* Cache le menu par défaut sur téléphone */
+    nav {
+        display: none;
+        position: absolute;
+        top: 60px; /* sous le header */
+        right: 0;
+        width: 70%;
+        background: white;
+        padding: 20px;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    /* Quand on clique, JS ajoute .active et le menu apparaît */
+    nav.active {
+        display: block;
+    }
+
+    /* Pour que les liens soient en colonne */
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Rendre les 3 tirets cliquables */
+    .menu-toggle {
+        cursor: pointer;
+        font-size: 24px;
+    }
+}
 nav ul{
 
 
