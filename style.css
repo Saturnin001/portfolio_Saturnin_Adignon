@@ -1756,6 +1756,22 @@ footer {
         padding: 20px;
     }
 }
+  /* ===== CORRIGER SEULEMENT LE FOOTER ===== */
+
+footer {
+    background: #0d4d2a; /* Vert foncé */
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+footer p {
+    color: white !important; /* Force le texte en blanc */
+    font-size: 15px;
+    opacity: 1 !important;
+}
 nav ul{
 
 
