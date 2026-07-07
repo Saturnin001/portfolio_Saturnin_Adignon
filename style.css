@@ -1804,6 +1804,26 @@ footer p {
         font-size: 24px;
     }
 }
+  /* Pour cacher le menu sur téléphone */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    nav.active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: white;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+}
 nav ul{
 
 
