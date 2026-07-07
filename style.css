@@ -1702,6 +1702,60 @@ nav.active{
 display:block;
 
 }
+
+  /* ===== CORRECTIONS FINALES ===== */
+
+/* 1. Changer seulement la couleur de "Saturnin" en bleu */
+.logo h2{
+    color:#2563eb;
+}
+
+/* 2. Centrer le formulaire et lui donner un joli bloc */
+.contact-form {
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* 3. Rendre le bouton vert et cliquable */
+button[type="submit"]{
+    background: var(--vert);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover{
+    opacity: 0.85;
+}
+
+/* 4. Aérer le footer et le centrer */
+footer {
+    width: 100%;
+    padding: 35px 20px;
+    text-align: center;
+    background: var(--vert-foncé);
+    color: white;
+    margin-top: 50px;
+}
+
+/* 5. Pour que ça soit joli sur téléphone */
+@media (max-width: 768px) {
+    .contact-form {
+        margin: 20px;
+        padding: 20px;
+    }
+}
 nav ul{
 
 
