@@ -1865,6 +1865,24 @@ nav.active {
     color: white; /* L'ICÔNE EN BLANC */
     font-size: 20px;
   }
+  .tasks {
+  list-style-type: disc; /* points noirs */
+  padding-left: 22px;
+  margin: 12px 0;
+  color: #444; /* gris foncé pour bien lire */
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.tasks li {
+  margin-bottom: 8px;
+}
+
+/* Pour que les titres des expériences ressortent */
+.timeline-item h3 {
+  color: #2e7d32; /* vert */
+  margin-bottom: 5px;
+}
   nav ul{
 
 
