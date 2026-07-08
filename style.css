@@ -1818,6 +1818,10 @@ footer p {
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
   }
+  #menu-btn {
+    z-index: 9999;
+    cursor: pointer;
+  }
   nav ul{
 
 
