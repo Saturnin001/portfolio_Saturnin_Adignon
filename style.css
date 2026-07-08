@@ -1817,11 +1817,29 @@ footer p {
         padding: 15px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
-  }
-  #menu-btn {
+  }#menu-btn {
     z-index: 9999;
     cursor: pointer;
-  }
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+/* Cacher le menu sur mobile par défaut */
+nav {
+    display: none;
+}
+
+/* Quand on clique, on l'affiche */
+nav.active {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
   nav ul{
 
 
