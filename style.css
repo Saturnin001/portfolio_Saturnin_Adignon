@@ -1840,6 +1840,31 @@ nav.active {
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+  .contact-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    margin: 30px 0;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background: #1e8e3e; /* LE VERT */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* L'ICÔNE EN BLANC */
+    font-size: 20px;
+  }
   nav ul{
 
 
