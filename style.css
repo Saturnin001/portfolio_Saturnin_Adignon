@@ -100,11 +100,7 @@ header{
     box-sizing: border-box;
   
     max-width: 100vw;
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-
-   }
+ }
 
 header .container{
 
@@ -115,6 +111,8 @@ header .container{
     align-items:center;
 
     height:80px;
+  
+    width: 100%;
   
     box-sizing: border-box;
 
